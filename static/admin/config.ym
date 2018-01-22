@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: beweteplus/basta
+
+media_folder: "static/data/img"
+
+collections:
+  - name: post
+    label: Post
+    folder: news
+    create: true
+    fields:
+      - {name: title, label: nadpis}
+      - {name: body, label: Oznam, widget: markdown}
+	  - {name: weight, label: Poradie, widget: text}
