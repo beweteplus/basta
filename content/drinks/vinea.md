@@ -1,6 +1,6 @@
 ---
-title: Vinea 1
-description: Originál, vo fľaši
+title: Vinea
+description: 'Originál, vo fľaši'
 categories:
   - Nealko
 price: '0.89'
