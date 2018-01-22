@@ -1,7 +1,7 @@
 ---
-title: "Vinea"
+title: "Kofola"
 description: "Originál, vo fľaši"
 categories: ["Nealko"]
-price: "0.89"
+price: "0.99"
 volume: "0.33 l"
 ---
