@@ -1,5 +1,5 @@
 ---
-locationTitle: a
+locationTitle: Bratislava
 title: basta
 siteSubtitle: a
 foodMenuTitle: a
