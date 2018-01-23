@@ -25,6 +25,18 @@ aboutUs:
       Košiciach.
     icon: fa-anchor
     title: Od roku 2001
+  - content: >-
+      Varíme z čerstvých domácich surovín. Zameriavame sa na tradičnú slovenskú
+      kuchyňu, ale aj české a maďarské špeciality. Naše jedlá Vás zasýtia, sú
+      zdravé a chutné.
+    icon: fa-cutlery
+    title: Tradičná kuchyňa
+  - content: >-
+      Podporujeme domácich výrobcov nápojov. V našich prevádzkach si môžte k
+      jedlu objednať domáce pivné špeciály, alebo tiež limonády z domácich
+      ovocných sirupov.
+    icon: fa-coffee
+    title: Domáce nápoje
 newsTitle: Oznamy
 news:
   - text: >-
