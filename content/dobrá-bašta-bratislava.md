@@ -58,7 +58,7 @@ contact:
     title: Kontakt
 object:
   facebookUrl: a
-  foorMenuUrl: a
+  foorMenuUrl: 'https://basta-47101.firebaseio.com/meals.json'
   googlePlusUrl: a
   mapUrl: aaa
   offerMenuUrl: a
