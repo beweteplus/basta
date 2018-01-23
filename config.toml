@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://basta.netlify.com/"
 languageCode = "sk-SK"
 title = "Dobrá Bašta"
 
