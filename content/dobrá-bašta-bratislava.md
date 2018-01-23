@@ -1,5 +1,5 @@
 ---
-title: Dobrá Bašta Bratislava
+title: Bratislava
 websiteTitle: Dobrá Bašta
 siteSubtitle: Poctivá domáca kuchyňa v Bratislave
 foodMenuTitle: Denné menu
