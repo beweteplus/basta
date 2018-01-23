@@ -1,21 +1,21 @@
 ---
+locationTitle: a
 title: basta
-boolean: true
-text: basta basta
-number: '1'
-markdown: bastabastabasta
-datetime: 2018-01-23T15:02:34.325Z
-date: 2018-01-23T15:02:34.326Z
-image: /static/img/logo.png
-file: /static/img/logo.png
-select: b
-hidden: hidden
+siteSubtitle: a
+foodMenuTitle: a
+foodMenuSubTitle: a
+drinksTitle: a
+drinksSubTitle: a
+aboutUsTitle: a
+aboutUsSubTitle: a
+newsTitle: a
+contactTitle: a
+contactSubTitle: a
+aboutUs:
+  - {}
+contact:
+  - {}
 object:
-  date: 2018-01-23T15:02:34.329Z
-list:
-  - image: /static/img/logo.png
-    file: /static/img/logo.png
-    object:
-      date: 2018-01-23T15:03:00.821Z
+  foorMenuUrl: a
 ---
 
