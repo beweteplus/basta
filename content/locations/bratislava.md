@@ -19,11 +19,11 @@ sectionnews:
 sectionContacts:
   contact:
     - content: |-
-        **PONDELOK - PIATOK**
+        PONDELOK - PIATOK
 
         Od 10:00 Do 21:00
 
-        **SOBOTA, NEDEĽA**
+        SOBOTA, NEDEĽA
 
         Od 9:00 Do 21:00
       icon: fa-clock-o
