@@ -1,6 +1,5 @@
 {
-  "locale": "sk-SK",
   "currency": "€",
-  "logo": "/img/logo.png",
+  "logo": "/static/img/logo.png",
   "copyright": "2018"
 }
