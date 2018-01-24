@@ -31,6 +31,7 @@ sectionContacts:
         <p>E-mail: <a
         href="mailto:info@dobrabasta.sk">info@dobrabasta.sk</a></p>
 
+
         <p>Telefón:  +421 948838100</p>
       icon: fa-mobile
       title: Kontakt
