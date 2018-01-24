@@ -17,6 +17,26 @@ sectionnews:
     - text: '  Milí stravníci, ďakujeme Vám za Vaše tohtoročné návštevy, veríme, že ste       si u nás pochutili! Zároveň dávame na známosť, že počas Vianočného       obdobbia, 23.12.2017 - 31.12.2017 budú naše prevádzky zatvorené z dôvodu       čerpania dovoleniek. Prajeme pekné sviatky a tešíme sa na Vás v budúcom       roku!'
   title: Oznamy
 sectionContacts:
+  contact:
+    - content: |-
+        PONDELOK - PIATOK
+
+        Od 10:00 Do 21:00
+
+        SOBOTA, NEDEĽA
+
+        Od 9:00 Do 21:00
+      icon: fa-clock
+      title: Otváracie hodiny
+    - content: 'Aupark, 2. poschodie, Einsteinova 18, Petržalka, Bratislava V'
+      icon: fa-map-marker
+      title: Kde nás nájdete
+    - content: |-
+        E-mail: info@dobrabasta.sk
+
+        Telefón: +421 948838100
+      icon: fa-mobile
+      title: Kontakt
   subtitle: 'Nájdete nás veľmi ľahko, vrátite sa vždy zakrátko.'
   title: Kontakt
 urlSettings:
