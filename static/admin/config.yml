@@ -3,6 +3,7 @@ backend:
   repo: beweteplus/basta
 
 media_folder: "static/img"
+public_folder: "/img"
 
 collections:
   - name: "settings"
@@ -17,10 +18,8 @@ collections:
         file: "data/settings.json"
         description: "Všeobecné nastavenia webstránky"
         fields:
-          - {label: "Locale", name: "locale", widget: "string"}
           - {label: "Mena", name: "currency", widget: "string"}
-          - {label: "Logo", name: "logo", widget: "image"}
-          - {label: "Copyright Info", name: "copyright", widget: "string"}
+          - {label: "Logo", name: "logo", widget: "string"}
   - name: "locations" # all the things in one entry, for documentation and quick testing
     label: "Prevádzky"
     folder: "content/locations"
