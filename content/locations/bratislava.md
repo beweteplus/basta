@@ -5,7 +5,6 @@ navbar:
   contact: Kontakt
   drinks: Nápoje
   menu1: Menu
-  locations1: Prevádzky
   news: Oznamy
 secionHeader:
   siteSubtitle: Poctivá domáca kuchyňa v Bratislave
@@ -52,16 +51,29 @@ sectionnews:
   title: Oznamy
 sectionContacts:
   contact:
-    - content: '<p>Od 10:00 Do 21:00</p><h4>SOBOTA, NEDEĽA</h4><p>Od 9:00 Do 21:00</p>'
+    - content: |-
+        PONDELOK - PIATOK
+
+
+
+        Od 10:00 Do 21:00
+
+        SOBOTA, NEDEĽA
+
+
+
+        Od 9:00 Do 21:00
       icon: fa-clock-o
       title: Otváracie hodiny
-    - content: '<p>Aupark, 2. poschodie, Einsteinova 18, Petržalka, Bratislava V</p>'
+    - content: 'Aupark, 2. poschodie, Einsteinova 18, Petržalka, Bratislava V'
       icon: fa-map-marker
       title: Kde nás nájdete
-    - content: >-
-        <p>E-mail: <a
-        href="mailto:info@dobrabasta.sk">info@dobrabasta.sk</a></p><p>Telefón: 
-        +421 948838100</p>
+    - content: |-
+        E-mail: info@dobrabasta.sk
+
+
+
+        Telefón: +421 948838100
       icon: fa-mobile
       title: Kontakt
   subtitle: 'Nájdete nás veľmi ľahko, vrátite sa vždy zakrátko.'
