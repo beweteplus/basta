@@ -6,7 +6,7 @@
 <html class="no-js" lang="sk-SK">
 <!--<![endif]-->
 <head>
-<title>{{ .Params.secionHeader.websiteTitle }} {{ .Params.Title }}</title> {{ .Hugo.Generator }}
+<title>{{ .Params.sectionHeader.websiteTitle }} {{ .Params.Title }}</title> {{ .Hugo.Generator }}
 
 <!-- meta -->
 <meta charset="utf-8">
@@ -41,12 +41,12 @@
 						class="icon-bar"></span>
 				</button>
 				
-				<a class="navbar-brand" href="#"><h2>{{ .Params.secionHeader.websiteTitle }}</h2></a>
+				<a class="navbar-brand" href="#"><h2>{{ .Params.sectionHeader.websiteTitle }}</h2></a>
 			</div>
 			<!-- navbar-header -->
 			<div id="navbar" class="navbar-collapse collapse">
 				<div class="hidden-xs" id="logo" class="hidden-sm-down">
-					<a href="#header"> <img src="{{.Site.BaseURL}}/img/logo.png" alt="">
+					<a href="#header"> <img src="{{$.Site.Data.settings.logo}}" alt="">
 					</a>
 				</div>
 
@@ -82,10 +82,10 @@
 		<div class="bg-overlay"></div>
 		<div class="center text-center">
 			<div class="banner">
-				<h1 class="">{{ .Params.secionHeader.websiteTitle }}</h1>
+				<h1 class="">{{ .Params.sectionHeader.websiteTitle }}</h1>
 			</div>
 			<div class="subtitle">
-				<h4>{{ .Params.secionHeader.siteSubtitle }}</h4>
+				<h4>{{ .Params.sectionHeader.siteSubtitle }}</h4>
 			</div>
 		</div>
 		<div class="bottom text-center">
@@ -123,7 +123,7 @@
 						<td>{{ .Params.volume }}</td>
 						<td><span class="drink-name">{{ .Title }}</span>
 							{{ .Description}}</td>
-						<td>{{ .Params.price }} {{ $.Site.Params.currency }}</td>
+						<td>{{ .Params.price }} {{ $.Site.Data.settings.currency }}</td>
 					</tr>
 					{{ end }}
 				</table>
@@ -197,7 +197,7 @@
 		<section class="ss-style-top"></section>
 		<div class="container inner">
 			<div class="row">
-				<div class="col-sm-6">&copy; 2017 {{ .Params.secionHeader.websiteTitle }}</div>
+				<div class="col-sm-6">&copy; {{ now.Year }} {{ .Params.sectionHeader.websiteTitle }}</div>
 				<div class="col-sm-6">
 					<div class="social-bar">
 						{{ if .Params.urlSettings.facebookUrl }} <a
