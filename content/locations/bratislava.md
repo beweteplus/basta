@@ -1,12 +1,12 @@
 ---
 title: Bratislava
 navbar:
-  aboutUsLabel: O nás
-  contactLabel: Kontakt
-  drinksLabel: Nápoje
-  foodMenuLabel: Menu
-  locationsLabel: Prevádzky
-  newsLabel: Oznamy
+  about: O nás
+  contact: Kontakt
+  drinks: Nápoje
+  menu1: Menu
+  locations: Prevádzky
+  news: Oznamy
 secionHeader:
   siteSubtitle: Poctivá domáca kuchyňa v Bratislave
   websiteTitle: Dobrá Bašta
