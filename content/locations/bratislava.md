@@ -19,22 +19,19 @@ sectionnews:
 sectionContacts:
   contact:
     - content: |-
-        PONDELOK - PIATOK
-
-        Od 10:00 Do 21:00
-
-        SOBOTA, NEDEĽA
-
-        Od 9:00 Do 21:00
+        <p>Od 10:00 Do 21:00</p>
+        <h4>SOBOTA, NEDEĽA</h4>
+        <p>Od 9:00 Do 21:00</p>
       icon: fa-clock-o
       title: Otváracie hodiny
-    - content: 'Aupark, 2. poschodie, Einsteinova 18, Petržalka, Bratislava V'
+    - content: '<p>Aupark, 2. poschodie, Einsteinova 18, Petržalka, Bratislava V</p>'
       icon: fa-map-marker
       title: Kde nás nájdete
-    - content: |-
-        E-mail: info@dobrabasta.sk
+    - content: >-
+        <p>E-mail: <a
+        href="mailto:info@dobrabasta.sk">info@dobrabasta.sk</a></p>
 
-        Telefón: +421 948838100
+        <p>Telefón:  +421 948838100</p>
       icon: fa-mobile
       title: Kontakt
   subtitle: 'Nájdete nás veľmi ľahko, vrátite sa vždy zakrátko.'
