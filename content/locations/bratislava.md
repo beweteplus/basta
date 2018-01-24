@@ -4,21 +4,21 @@ secionHeader:
   siteSubtitle: Poctivá domáca kuchyňa v Bratislave
   websiteTitle: Dobrá Bašta
 sectionFoodMenu:
-  foodMenuSubTitle: Vyberte si z našej dnešnej ponuky!
-  foodMenuTitle: Denné menu
+  subtitle: Vyberte si z našej dnešnej ponuky!
+  title: Denné menu
 sectionDrinks:
-  drinksSubTitle: Orosená odmena pre každého jedáka!
-  drinksTitle: Ponuka nápojov
+  subtitle: Orosená odmena pre každého jedáka!
+  title: Ponuka nápojov
 sectionAboutUs:
-  aboutUsSubTitle: ' Domáca kuchyňa zameraná na regionálne slovenské, české a maďarské jedlá. Denná   ponuka cca 30 jedál zahŕňa polievky, mäsité, bezmäsité aj sladké jedlá, všetky   pripravované z čerstvých surovín a denne obmieňané.'
-  aboutUsTitle: O nás
+  subtitle: ' Domáca kuchyňa zameraná na regionálne slovenské, české a maďarské jedlá. Denná   ponuka cca 30 jedál zahŕňa polievky, mäsité, bezmäsité aj sladké jedlá, všetky   pripravované z čerstvých surovín a denne obmieňané.'
+  title: O nás
 sectionnews:
   news:
     - text: '  Milí stravníci, ďakujeme Vám za Vaše tohtoročné návštevy, veríme, že ste       si u nás pochutili! Zároveň dávame na známosť, že počas Vianočného       obdobbia, 23.12.2017 - 31.12.2017 budú naše prevádzky zatvorené z dôvodu       čerpania dovoleniek. Prajeme pekné sviatky a tešíme sa na Vás v budúcom       roku!'
-  newsTitle: Oznamy
+  title: Oznamy
 sectionContacts:
-  contactSubTitle: 'Nájdete nás veľmi ľahko, vrátite sa vždy zakrátko.'
-  contactTitle: Kontakt
+  subtitle: 'Nájdete nás veľmi ľahko, vrátite sa vždy zakrátko.'
+  title: Kontakt
 urlSettings:
   facebookUrl: 'http://www.facebook.com/pages/dobrabasta'
   foodMenuUrl: 'https://basta-47101.firebaseio.com/meals.json'
