@@ -24,7 +24,10 @@ sectionContacts:
     - content: '<p>Aupark, 2. poschodie, Einsteinova 18, Petržalka, Bratislava V</p>'
       icon: fa-map-marker
       title: Kde nás nájdete
-    - content: '<p>E-mail: <a href="mailto:info@dobrabasta.sk">info@dobrabasta.sk</a></p><p>Telefón:  +421 948838100</p>'
+    - content: >-
+        <p>E-mail: <a
+        href="mailto:info@dobrabasta.sk">info@dobrabasta.sk</a></p><p>Telefón: 
+        +421 948838100</p>
       icon: fa-mobile
       title: Kontakt
   subtitle: 'Nájdete nás veľmi ľahko, vrátite sa vždy zakrátko.'
@@ -35,7 +38,7 @@ urlSettings:
   gaCode: UA-123-45
   googlePlusUrl: 'https://www.googleplus.com/basta'
   mapUrl: >-
-    www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.324470130868!2d17.10649853959983!3d48.13260031340803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c896e750cecbf%3A0xcf44c74fc7d536d!2sAupark!5e0!3m2!1ssk!2ssk!4v1511180852698
+    https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2239.324470130868!2d17.10649853959983!3d48.13260031340803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476c896e750cecbf%3A0xcf44c74fc7d536d!2sAupark!5e0!3m2!1ssk!2ssk!4v1511180852698
   offerMenuUrl: 'https://basta-47101.firebaseio.com/offer.json'
   zomatoUrl: >-
     https://www.zomato.com/bratislava/dobr%C3%A1-ba%C5%A1ta-petr%C5%BEalka-bratislava-v
