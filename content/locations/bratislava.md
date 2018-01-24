@@ -1,10 +1,10 @@
 ---
 title: Bratislava
 navbar:
-  aboutUs: O nás
+  about: O nás
   contact: Kontakt
   drinks: Nápoje
-  foodMenu: Menu
+  menu1: Menu
   locations: Prevádzky
   news: Oznamy
 secionHeader:
