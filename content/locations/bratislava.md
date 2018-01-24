@@ -10,6 +10,26 @@ sectionDrinks:
   subtitle: Orosená odmena pre každého jedáka!
   title: Ponuka nápojov
 sectionAboutUs:
+  aboutUs:
+    - content: >-
+        Dobrá bašta pre Vás varí už od roku 2003. O Vašu dlhodobú spokojnosť sa
+        stará tím skúsených kuchárov a šikovná obsluha. Od roku 2012 sme sa
+        rozrástli o tri ďalšie prevádzky a to v Žiline, Banskej Bystrici a
+        Košiciach.
+      icon: fa-anchor
+      title: Od roku 2003
+    - content: >-
+        Varíme z čerstvých domácich surovín. Zameriavame sa na tradičnú
+        slovenskú kuchyňu, ale aj české a maďarské špeciality. Naše jedlá Vás
+        zasýtia, sú zdravé a chutné.
+      icon: fa-cutlery
+      title: Tradičná kuchyňa
+    - content: >-
+        Podporujeme domácich výrobcov nápojov. V našich prevádzkach si môžte k
+        jedlu objednať domáce pivné špeciály, alebo tiež limonády z domácich
+        ovocných sirupov.
+      icon: fa-coffee
+      title: Domáce nápoje
   subtitle: ' Domáca kuchyňa zameraná na regionálne slovenské, české a maďarské jedlá. Denná   ponuka cca 30 jedál zahŕňa polievky, mäsité, bezmäsité aj sladké jedlá, všetky   pripravované z čerstvých surovín a denne obmieňané.'
   title: O nás
 sectionnews:
