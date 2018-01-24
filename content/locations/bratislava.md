@@ -4,7 +4,7 @@ navbar:
   about: O nás
   contact: Kontakt
   drinks: Nápoje
-  locations: Prevádzky
+  locations1: Prevádzky
   menu1: Menu
   news: Oznamy
 secionHeader:
