@@ -4,9 +4,10 @@ navbar:
   about: O nás
   contact: Kontakt
   drinks: Nápoje
-  locations: Prevádzky
   menu1: Menu
-  news: OznamysecionHeader:
+  locations1: Prevádzky
+  news: Oznamy
+secionHeader:
   siteSubtitle: Poctivá domáca kuchyňa v Bratislave
   websiteTitle: Dobrá Bašta
 sectionFoodMenu:
