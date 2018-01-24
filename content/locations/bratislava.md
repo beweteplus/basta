@@ -65,7 +65,7 @@ sectionContacts:
         Od 9:00 Do 21:00
       icon: fa-clock-o
       title: Otváracie hodiny
-    - content: '<p>Aupark, 2. poschodie, Einsteinova 18, Petržalka, Bratislava V</p>'
+    - content: 'Aupark, 2. poschodie, Einsteinova 18, Petržalka, Bratislava V'
       icon: fa-map-marker
       title: Kde nás nájdete
     - content: |-
