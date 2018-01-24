@@ -29,7 +29,7 @@
 					<span class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Params.navbar.locations1 }}
 					</span>
 					<div class="dropdown-menu">
-						{{ range where .Site.Pages "Dir" "locations\\" }}
+						{{ range where .Site.Pages "Dir" "locations\/" }}
 						<a class="dropdown-item" href="{{ .Permalink }}">{{ .Title }}</a>
 						{{ end }}
 					</div>
@@ -64,7 +64,7 @@
 						<span class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ .Params.navbar.locations1 }}
 						</span>
 						<div class="dropdown-menu">
-							{{ range where .Site.Pages "Dir" "locations\\" }}
+							{{ range where .Site.Pages "Dir" "locations\/" }}
 								<a class="dropdown-item" href="{{ .Permalink }}">{{ .Title }}</a>
 							{{ end }}
 						</div>
@@ -183,17 +183,10 @@
 					<h3>Naše prevádzky</h3>
 					<p>
 					<ul>
-					{{ range where .Site.Pages "Dir" "locations\\" }}
+					{{ range where .Site.Pages "Dir" "locations\/" }}
 					<li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
 					{{ end }}
 					</ul>
-					
-					<ul>
-					{{ range .Site.Pages }}
-					<li>{{ .Dir }} - {{ .Title }}</li>
-					{{ end }}
-					</ul>
-					
 					</p>
 				</div>
 			</div>
