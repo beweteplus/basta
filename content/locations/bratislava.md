@@ -77,7 +77,7 @@ sectionDrinks:
         - description: 'na rúbanisku. 11 stupňové, tmavé'
           price: '0.99'
           title: Tokajúci tetrov
-          volume: '0,33 l'
+          volume: 0.33 l
       title: PIVO
   subtitle: Orosená odmena pre každého jedáka!
   title: Ponuka nápojov
