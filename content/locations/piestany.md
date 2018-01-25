@@ -1,5 +1,5 @@
 ---
-title: Piešťany
+title: Aupark Piešťany
 navbar:
   about: O nás
   contact: Kontakt
@@ -147,7 +147,6 @@ urlSettings:
   mapUrl: >-
     https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10556.46979469098!2d17.832927!3d48.58845!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x234b83b0246c5a2c!2zQXVwYXJrIFBpZcWhxaVhbnk!5e0!3m2!1ssk!2ssk!4v1516880429580
   offerMenuUrl: 'https://basta-47101.firebaseio.com/offer.json?l=piestany'
-  zomatoUrl: >-
-    https://www.zomato.com/bratislava/dobr%C3%A1-ba%C5%A1ta-piestany
+  zomatoUrl: 'https://www.zomato.com/bratislava/dobr%C3%A1-ba%C5%A1ta-piestany'
 ---
 
