@@ -14,6 +14,14 @@ sectionFoodMenu:
   subtitle: Vyberte si z našej dnešnej ponuky!
   title: Denné menu
 sectionDrinks:
+  drinkCategories:
+    - drinks:
+        - description: Pepsi Kola v plechovke
+          price: '0,99'
+          title: Pepsi
+          type: Nealko
+          volume: '0,33 l'
+      title: NEALKO
   subtitle: Orosená odmena pre každého jedáka!
   title: Ponuka nápojov
 sectionAboutUs:
