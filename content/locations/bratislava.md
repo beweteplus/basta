@@ -7,8 +7,8 @@ navbar:
   locations1: Prevádzky
   menu1: Menu
   news: Oznamy
-sectionHeader:
-  siteSubtitle: Poctivá domáca kuchyňa v Bratislave
+secionHeader:
+  siteSubtitle: Poctivá domáca kuchyňa
   websiteTitle: Dobrá Bašta
 sectionFoodMenu:
   subtitle: Vyberte si z našej dnešnej ponuky!
