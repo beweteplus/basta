@@ -16,32 +16,6 @@ sectionFoodMenu:
 sectionDrinks:
   drinkCategories:
     - drinks:
-        - description: 'neperlivá, vo fľaši'
-          price: 0.79
-          title: Budiš
-          volume: 0.5 l
-        - description: 'perlivá, vo fľaši'
-          price: 0.79
-          title: Budiš
-          volume: 0.5 l
-        - description: Originál plechovka
-          price: 0.99
-          title: Coca-Cola
-          volume: 0.33 l
-        - description: Originál vo fľaši
-          price: 0.99
-          title: Kofola
-          volume: 0.33 l
-        - description: Pepsi kola v plechovke
-          price: 0.33
-          title: Pepsi
-          volume: 0.5 l
-        - description: Originál vo fľaši
-          price: 0.99
-          title: Vinea
-          volume: 0.33 l
-      title: NEALKO
-    - drinks:
         - description: Zlatý Bažant
           price: 0.99
           title: Rezané pivo
@@ -79,6 +53,32 @@ sectionDrinks:
           title: Tokajúci tetrov
           volume: 0.33 l
       title: PIVO
+    - drinks:
+        - description: 'neperlivá, vo fľaši'
+          price: 0.79
+          title: Budiš
+          volume: 0.5 l
+        - description: 'perlivá, vo fľaši'
+          price: 0.79
+          title: Budiš
+          volume: 0.5 l
+        - description: Originál plechovka
+          price: 0.99
+          title: Coca-Cola
+          volume: 0.33 l
+        - description: Originál vo fľaši
+          price: 0.99
+          title: Kofola
+          volume: 0.33 l
+        - description: Pepsi kola v plechovke
+          price: 0.33
+          title: Pepsi
+          volume: 0.5 l
+        - description: Originál vo fľaši
+          price: 0.99
+          title: Vinea
+          volume: 0.33 l
+      title: NEALKO
   subtitle: Orosená odmena pre každého jedáka!
   title: Ponuka nápojov
 sectionAboutUs:
