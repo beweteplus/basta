@@ -14,37 +14,39 @@ sectionFoodMenu:
   subtitle: Vyberte si z našej dnešnej ponuky!
   title: Denné menu
 sectionDrinks:
-  drinks:
-    - description: 'neperlivá, vo fľaši'
-      price: 0.79
-      title: Budiš
-      type: Nealko
-      volume: 0.5 l
-    - description: 'perlivá, vo fľaši'
-      price: 0.79
-      title: Budiš
-      type: Nealko
-      volume: 0.5 l
-    - description: Originál plechovka
-      price: 0.99
-      title: Coca-Cola
-      type: Nealko
-      volume: 0.33 l
-    - description: Originál vo fľaši
-      price: 0.99
-      title: Kofola
-      type: Nealko
-      volume: 0.33 l
-    - description: Pepsi kola v plechovke
-      price: 0.33
-      title: Pepsi
-      type: Nealko
-      volume: 0.5 l
-    - description: Originál vo fľaši
-      price: 0.99
-      title: Vinea
-      type: Nealko
-      volume: 0.33 l
+  drinkCategories:
+    title: NEALKO
+    drinks:
+      - description: 'neperlivá, vo fľaši'
+        price: 0.79
+        title: Budiš
+        type: Nealko
+        volume: 0.5 l
+      - description: 'perlivá, vo fľaši'
+        price: 0.79
+        title: Budiš
+        type: Nealko
+        volume: 0.5 l
+      - description: Originál plechovka
+        price: 0.99
+        title: Coca-Cola
+        type: Nealko
+        volume: 0.33 l
+      - description: Originál vo fľaši
+        price: 0.99
+        title: Kofola
+        type: Nealko
+        volume: 0.33 l
+      - description: Pepsi kola v plechovke
+        price: 0.33
+        title: Pepsi
+        type: Nealko
+        volume: 0.5 l
+      - description: Originál vo fľaši
+        price: 0.99
+        title: Vinea
+        type: Nealko
+        volume: 0.33 l
   subtitle: Orosená odmena pre každého jedáka!
   title: Ponuka nápojov
 sectionAboutUs:
