@@ -14,6 +14,12 @@ sectionFoodMenu:
   subtitle: Vyberte si z našej dnešnej ponuky!
   title: Denné menu
 sectionDrinks:
+  drinks:
+    - description: "\tneperlivá, vo fľaši"
+      price: " \t0.79"
+      title: Budiš
+      type: Nealko
+      volume: "0.5 l \t"
   subtitle: Orosená odmena pre každého jedáka!
   title: Ponuka nápojov
 sectionAboutUs:
