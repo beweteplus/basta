@@ -19,7 +19,6 @@ sectionDrinks:
         - description: Pepsi Kola v plechovke
           price: '0,99'
           title: Pepsi
-          type: Nealko
           volume: '0,33 l'
       title: NEALKO
   subtitle: Orosená odmena pre každého jedáka!
