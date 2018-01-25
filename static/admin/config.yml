@@ -18,8 +18,13 @@ collections:
         file: "data/settings.json"
         description: "Všeobecné nastavenia webstránky"
         fields:
+          - {label: "Značka / Názov siete prevádzok", name: "title", widget: "string"}        
+          - {label: "Naše prevádzky", name: "ourLocations", widget: "string"}        
           - {label: "Mena", name: "currency", widget: "string"}
           - {label: "Logo", name: "logo", widget: "string"}
+          - {label: "Facebook URL", name: "facebook", widget: "string"}
+          - {label: "Zomato URL", name: "zomato", widget: "string"}              
+          - {label: "Google plus URL", name: "googleplus", widget: "string"}
   - name: "locations" # all the things in one entry, for documentation and quick testing
     label: "Prevádzky"
     folder: "content/locations"

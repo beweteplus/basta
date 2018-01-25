@@ -1,3 +1,2 @@
-baseURL = "https://basta.netlify.com/"
-disableKinds=["404"]
+baseURL = "/"
 pluralizeListTitles = false
