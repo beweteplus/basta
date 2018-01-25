@@ -40,36 +40,7 @@ sectionDrinks:
           price: 0.99
           title: Vinea
           volume: 0.33 l
-      title: PIVO
-        - description: 'Zlatý Bažant'
-          price: 0.99
-          title: 'Rezané pivo'
-          volume: 0.5 l
-        - description: '10 stupňové, ležiak'
-          price: 1.50
-          title: Darebák
-          volume: 0.33 l
-        - description: '10 stupňové, tradičný ležiak'
-          price: 0.99
-          title: Kozel
-          volume: 0.5 l
-        - description: 	14 stupňové, moc moc silné
-          price: 1.99
-          title: Ochmeľená opica
-          volume: 0.33 l
-        - description: 	14-stupňový špecál z Dodovaru
-          price: 1.39
-          title: 'Podstolovník'
-          volume: 0.5 l
-        - description: 'Originál, nealkoholické pivo (0,49%)'
-          price: 0.99
-          title: 'Radegast Birell'
-          volume: 0.5 l
-        - description: 'Originál, nealkoholické pivo (0,49%)'
-          price: 0.99
-          title: 'Radegast Birell'
-          volume: 0.5 l
-      title: NEALKO	  
+      title: NEALKO
   subtitle: Orosená odmena pre každého jedáka!
   title: Ponuka nápojov
 sectionAboutUs:
