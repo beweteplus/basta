@@ -120,13 +120,9 @@ sectionContacts:
     - content: |-
         PONDELOK - PIATOK
 
-
-
         Od 10:00 Do 21:00
 
         SOBOTA, NEDEĽA
-
-
 
         Od 9:00 Do 21:00
       icon: fa-clock-o
