@@ -79,6 +79,12 @@ sectionDrinks:
           title: Tokajúci tetrov
           volume: 0.33 l
       title: PIVO
+    - drinks:
+        - description: Domáca
+          price: '0.99'
+          title: Borovička
+          volume: '0.1'
+      title: Tvrdvô
   subtitle: Orosená odmena pre každého jedáka!
   title: Ponuka nápojov
 sectionAboutUs:
