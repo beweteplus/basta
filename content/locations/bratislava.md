@@ -45,7 +45,6 @@ sectionDrinks:
       title: Vinea
       type: Nealko
       volume: "0.33 l"
-	  
   subtitle: Orosená odmena pre každého jedáka!
   title: Ponuka nápojov
 sectionAboutUs:
