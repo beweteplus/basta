@@ -1,5 +1,5 @@
 ---
-title: Bratislava
+title: Aupark Bratislava
 navbar:
   about: O nás
   contact: Kontakt
