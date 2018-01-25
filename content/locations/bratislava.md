@@ -83,7 +83,11 @@ sectionDrinks:
         - description: Domáca
           price: '0.99'
           title: Borovička
-          volume: '0.1'
+          volume: 2 dl
+        - description: 'Domáca, v tégliku'
+          price: '0.49'
+          title: Slivôčka
+          volume: 0.2 l
       title: Tvrdvô
   subtitle: Orosená odmena pre každého jedáka!
   title: Ponuka nápojov
