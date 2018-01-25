@@ -45,25 +45,30 @@ collections:
       - label: "Sekcia Denné menu"
         name: "sectionFoodMenu"
         widget: "object"
-        fields:      
+        fields:
           - {label: "Nadpis", name: "title", widget: "string"}
           - {label: "Podnadpis", name: "subtitle", widget: "string"}
       - label: "Sekcia nápoje"
         name: "sectionDrinks"
         widget: "object"
-        fields:      
+        fields:
           - {label: "Nadpis", name: "title", widget: "string"}
           - {label: "Podnadpis", name: "subtitle", widget: "string"}
-          - label: "Nápoje"
-            name: "drinks"
+          - label: "Kategórie nápojov"
+            name: "drinkCategories"
             widget: "list"
             required: false
             fields:
-              - {label: "Názov", name: "title", widget: "string"}
-              - {label: "Popis", name: "description", widget: "string"}
-              - {label: "Objem", name: "volume", widget: "string"}
-              - {label: "Cena", name: "price", widget: "string"}
-              - {label: "Kategória", name: "type", widget: "select", options: ["Nealko", "Pivo", "Víno"]}
+              - {label: "Názov kategórie", name: "title", widget: "string"}
+              - label: "Nápoje"
+                name: "drinks"
+                widget: "list"
+                required: false
+                fields:
+                  - {label: "Názov", name: "title", widget: "string"}
+                  - {label: "Popis", name: "description", widget: "string"}
+                  - {label: "Objem", name: "volume", widget: "string"}
+                  - {label: "Cena", name: "price", widget: "string"}
       - label: "Sekcia O nás"
         name: "sectionAboutUs"
         widget: "object"

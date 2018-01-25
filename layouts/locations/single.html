@@ -111,23 +111,23 @@
 			<p class="lead text-center drinks">{{ .Params.sectionDrinks.subtitle }}</p>
 
 			<div class="row drinks">
-				{{ range $key, $taxonomy := .Site.Taxonomies.categories }}
 				<table>
-					<tr>
-						<td>&nbsp;</td>
-						<td><div class="drink-category-title">{{ $key }}</div></td>
-						<td>&nbsp;</td>
-					</tr>
-					{{ range $taxonomy.Pages }}
-					<tr>
-						<td>{{ .Params.volume }}</td>
-						<td><span class="drink-name">{{ .Title }}</span>
-							{{ .Description}}</td>
-						<td>{{ .Params.price }} {{ $.Site.Data.settings.currency }}</td>
-					</tr>
+					{{ range.Params.SectionDrinks.DrinkCategories }}
+						<tr>
+							<td>&nbsp;</td>
+							<td><div class="drink-category-title">{{ .title }}</div></td>
+							<td>&nbsp;</td>
+						</tr>
+						{{ range .drinks }}
+						<tr>
+							<td>{{ .volume }}</td>
+							<td><span class="drink-name">{{ .title }}</span>
+								{{ .description}}</td>
+							<td>{{ .price }} {{ $.Site.Data.settings.currency }}</td>
+						</tr>
+						{{ end }}
 					{{ end }}
 				</table>
-				{{ end }}
 			</div>
 		</div>
 	</div>
