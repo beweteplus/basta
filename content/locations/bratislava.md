@@ -41,6 +41,12 @@ sectionDrinks:
           title: Vinea
           volume: 0.33 l
       title: NEALKO
+    - drinks:
+        - description: Radegast 10-ka
+          price: '0.89'
+          title: Radek
+          volume: 0.5 l
+      title: PIVO
   subtitle: Orosená odmena pre každého jedáka!
   title: Ponuka nápojov
 sectionAboutUs:
