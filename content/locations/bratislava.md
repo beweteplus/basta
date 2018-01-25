@@ -80,11 +80,11 @@ sectionDrinks:
           volume: 0.33 l
       title: PIVO
     - drinks:
-        - description: Domáca
+        - description: 'Jelínek, v tégliku'
           price: '0.99'
           title: Borovička
           volume: 2 dl
-        - description: 'Domáca, v tégliku'
+        - description: 'Jelínek, v tégliku'
           price: '0.49'
           title: Slivôčka
           volume: 0.2 l
