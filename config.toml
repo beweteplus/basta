@@ -1,2 +1,2 @@
-baseURL = "/"
+baseURL = "https://basta.netlify.com"
 pluralizeListTitles = false
