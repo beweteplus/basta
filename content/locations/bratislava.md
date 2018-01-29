@@ -128,11 +128,11 @@ sectionnews:
 sectionContacts:
   contact:
     - content: |-
-        PONDELOK - PIATOK
+        * PONDELOK - PIATOK
 
         Od 10:00 Do 21:00
 
-        SOBOTA, NEDEĽA
+        * SOBOTA, NEDEĽA
 
         Od 9:00 Do 21:00
       icon: fa-clock-o
@@ -141,10 +141,7 @@ sectionContacts:
       icon: fa-map-marker
       title: Kde nás nájdete
     - content: |-
-        E-mail: info@dobrabasta.sk
-
-
-
+        E-mail: info@dobrabasta.sk<br/>
         Telefón: +421 948838100
       icon: fa-mobile
       title: Kontakt
