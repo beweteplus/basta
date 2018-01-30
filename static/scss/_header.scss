@@ -59,9 +59,10 @@
 }
 
 .navbar-brand {
-    padding-top: 8px;
     padding-bottom: 0;
+	padding: 8px 0 14px 15px;
     h2 {
+		font-size: 26px;
         margin-top: 0;
         font-weight: bold;
         color: $font-color-light;
