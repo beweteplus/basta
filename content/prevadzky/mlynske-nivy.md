@@ -124,7 +124,7 @@ sectionContacts:
       icon: fa-map-marker
       title: Kde nás nájdete
     - content: |-
-        E-mail: info@dobrabasta.sk
+        E-mail: <a href="mailto:info@dobrabasta.sk">info@dobrabasta.sk</a>
 
 
 
