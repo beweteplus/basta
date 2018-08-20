@@ -46,7 +46,7 @@ function fillTemplate(meal) {
 					<h3>${meal.name}</h3>
 					<p>${meal.description || ""}</p>
 				</div>
-				<span class="hot-tag br-red">`, formatter.format(${meal.price}), `</span>
+				<span class="hot-tag br-red">` + formatter.format(${meal.price}) + `</span>
 				<div class="clearfix"></div>
 			</div>
 		</div>`;
