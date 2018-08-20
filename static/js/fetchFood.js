@@ -25,7 +25,7 @@ function fetchJson(url) {
 function fetchFoodMenu(successCallback, errorCallback) {
 	Promise.all([fetchJson(offerUrl), fetchJson(mealsUrl)])
 		.then(([offer, meals])=> {
-			const foodMenu = Object.keys(offer.mealIds).map(id => meals[id])
+			const foodMenu = Object.values(offer.mealIds).map(id => meals[id])
 			successCallback(foodMenu);
 		})
 		.catch(errorCallback);
