@@ -37,6 +37,7 @@ var formatter = new Intl.NumberFormat('sk-SK', {
 });
 
 function fillTemplate(meal) {
+	var price = formatter.format(${meal.price})
 	return `
 		<div class="col-md-6 col-sm-6">
 			<div class="pricing-item">      
@@ -46,7 +47,7 @@ function fillTemplate(meal) {
 					<h3>${meal.name}</h3>
 					<p>${meal.description || ""}</p>
 				</div>
-				<span class="hot-tag br-red">` + formatter.format(${meal.price}) + `</span>
+				<span class="hot-tag br-red">${price}</span>
 				<div class="clearfix"></div>
 			</div>
 		</div>`;
