@@ -30,6 +30,11 @@ function fetchFoodMenu(successCallback, errorCallback) {
 		})
 		.catch(errorCallback);
 }
+var formatter = new Intl.NumberFormat('sk-SK', {
+	style: 'currency',
+	currency: 'EUR',
+	minimumFractionDigits: 2,
+});
 
 function fillTemplate(meal) {
 	return `
@@ -41,7 +46,7 @@ function fillTemplate(meal) {
 					<h3>${meal.name}</h3>
 					<p>${meal.description || ""}</p>
 				</div>
-				<span class="hot-tag br-red">${meal.price}</span>
+				<span class="hot-tag br-red">`, formatter.format(${meal.price}), `</span>
 				<div class="clearfix"></div>
 			</div>
 		</div>`;
@@ -64,3 +69,4 @@ export function initFoodMenu() {
 		console.log("Error getting menu: " + error);
 	});
 }
+
