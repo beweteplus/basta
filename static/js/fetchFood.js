@@ -37,7 +37,7 @@ var formatter = new Intl.NumberFormat('sk-SK', {
 });
 
 function fillTemplate(meal) {
-	var price = formatter.format(${meal.price})
+	var price = formatter.format(meal.price)
 	return `
 		<div class="col-md-6 col-sm-6">
 			<div class="pricing-item">      
