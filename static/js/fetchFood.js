@@ -30,7 +30,7 @@ function fetchFoodMenu(successCallback, errorCallback) {
 			for ([key, value] of Object.entries(offer.mealIds)) {
 			  meals[key].order = value
 			}
-			let foodMenu = Object.keys(offer.mealIds).map(id => meals[id])
+			const foodMenu = Object.keys(offer.mealIds).map(id => meals[id])
 			successCallback(foodMenu);
 		})
 		.catch(errorCallback);
