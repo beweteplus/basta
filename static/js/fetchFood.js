@@ -10,6 +10,12 @@ function addGallery() {
 const offerUrl = jsonOfferUrl;
 const mealsUrl = jsonMenuUrl;
 
+const formatter = new Intl.NumberFormat('sk-SK', {
+	style: 'currency',
+	currency: 'EUR',
+	minimumFractionDigits: 2,
+});
+
 function fetchJson(url) {
 	return new Promise(function(resolve, reject) {
 		$.ajax({
@@ -25,19 +31,17 @@ function fetchJson(url) {
 function fetchFoodMenu(successCallback, errorCallback) {
 	Promise.all([fetchJson(offerUrl), fetchJson(mealsUrl)])
 		.then(([offer, meals])=> {
-			const foodMenu = Object.values(offer.mealIds).map(id => meals[id])
+			for ([key, value] of Object.entries(offer.mealIds)) {
+			  meals[key].order = value
+			}
+			let foodMenu = Object.keys(offer.mealIds).map(id => meals[id])
 			successCallback(foodMenu);
 		})
 		.catch(errorCallback);
 }
-var formatter = new Intl.NumberFormat('sk-SK', {
-	style: 'currency',
-	currency: 'EUR',
-	minimumFractionDigits: 2,
-});
 
 function fillTemplate(meal) {
-	var price = formatter.format(meal.price)
+	var price = formatter.format(meal.price);
 	return `
 		<div class="col-md-6 col-sm-6">
 			<div class="pricing-item">      
@@ -53,8 +57,10 @@ function fillTemplate(meal) {
 		</div>`;
 }
 
-function updateFoodMenu(data) {
-	const foodMenuContent = Object.values(data).reduce((acc, val, id) => {
+function updateFoodMenu(offer) {
+	const sortedList = Object.values(offer);
+	sortedList.sort((a,b) => a.order > b.order);
+	const foodMenuContent = sortedList.reduce((acc, val, id) => {
 		acc += fillTemplate(val);
 		if (id % 2 === 1) {
 			acc += '<div class="clearfix"></div>';
@@ -70,4 +76,3 @@ export function initFoodMenu() {
 		console.log("Error getting menu: " + error);
 	});
 }
-
