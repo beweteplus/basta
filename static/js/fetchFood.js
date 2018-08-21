@@ -10,11 +10,7 @@ function addGallery() {
 const offerUrl = jsonOfferUrl;
 const mealsUrl = jsonMenuUrl;
 
-const formatter = new Intl.NumberFormat('sk-SK', {
-	style: 'currency',
-	currency: 'EUR',
-	minimumFractionDigits: 2,
-});
+const formatter = new Intl.NumberFormat('sk-SK', {minimumFractionDigits: 2});
 
 function fetchJson(url) {
 	return new Promise(function(resolve, reject) {
