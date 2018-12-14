@@ -9,7 +9,7 @@ navbar:
   news: Oznamy
 sectionHeader:
   siteSubtitle: Poctivá domáca kuchyňa v Bratislave
-  websiteTitle: Najlepšia Bašta
+  websiteTitle: Dobrá Bašta
 sectionFoodMenu:
   subtitle: Vyberte si z našej dnešnej ponuky!
   title: Denné menu
